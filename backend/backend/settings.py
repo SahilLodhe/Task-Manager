@@ -107,10 +107,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # WHITELISTING REACT PORT for the interaction of the frontend
 CORS_ORIGIN_WHITELIST = [
-    'https://localhost:3000'
+    'https://localhost:3000',
+    'https://localhost:3001',
 ]
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_CREDENTIALS = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
